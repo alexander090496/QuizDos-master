@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.jonmid.quizdos.IndexActivity;
 import com.jonmid.quizdos.Models.UserModelAnguloJorge;
 import com.jonmid.quizdos.R;
+import com.squareup.picasso.Picasso;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -57,8 +58,8 @@ public class UserAdapterAnguloJorge extends RecyclerView.Adapter<UserAdapterAngu
         holder.textVienamecompany.setText(userModelAnguloJorgeArrayList.get(position).getNamecompany());
         holder.textViewaddress.setText(userModelAnguloJorgeArrayList.get(position).getAddress());
 
-        a= urlDetailsList.get(position).getUrl1();
-        Picasso.with(context).load(j).into(holder.imageViewcard);
+        //a= urlDetailsList.get(position).getUrl1();
+        //Picasso.with(context).load(j).into(holder.imageViewcard);
 
 
     }
